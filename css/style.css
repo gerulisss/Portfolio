@@ -31,34 +31,91 @@ header img {
 
 }
 
-
-.about {
-    background-color: black;
-    padding-bottom: 200px;
+.container .about1 {
+    display: inline-block;
+    float: left;
+    width: 20%;
+    /* height: 460px; */
+    width: 400px;
+    background-color: lime;
+    /* padding-bottom: 320px; */
+    padding: 60px;
     transform: translateY(-40px);
     padding-left: 20px;
     padding-right: 20px;
-    opacity: 0.5;
+    color: white;
 }
 
 
-.about .about-1 {
+.container .about2 {
+    display: inline-block;
+    float: left;
+    width: 30%;
+    width: 400px;
+    /* height: 420px;   */
+    background-color: black;
+    /* padding-bottom: 232px; */
+    padding: 60px;
+    transform: translateY(-40px);
+    padding-left: 20px;
+    padding-right: 20px;
+    color: white;
+}
+
+.container .about3 {
+    display: inline-block;
+    float: left;
+    /* jeigu du blokai, tai tada po 49% ploti */
+    width: 20%;
+    width: 400px;
+    /* height: 420px;   */
+    background-color: red;
+    /* padding-bottom: 232px; */
+    padding: 60px;
+    /* translate reikia padaryti 0px */
+    transform: translateY(-40px);
+    padding-left: 20px;
+    padding-right: 20px;
+    color: white;
+}
+
+.container .about1 p {
+    font-size: 15px;
+}
+
+.container .about2 p {
+    font-size: 15px;
+}
+
+
+.container .about3 p {
+    font-size: 15px;
+}
+
+
+        
+
+
+
+/* .about .about-1 {
     display: inline-block;
     width: 50%;
     float: left;
+    color: white; */
+    /* --------------------- */
     /* height: 400px;
     width: 200px; */
-    color: white;
-}
+/* } */
 
-.about .about-2 {
+/* .about .about-2 {
     display: inline-block;
     width: 50%;
     float: right;
+    color: white; */
+    /* ----------------------- */
     /* height: 400px;
     width: 400px; */
-    color: white;
-   }
+   /* } */
 
 .container {
         display: inline-block;
@@ -114,6 +171,8 @@ header img {
 }
 
 h1 {
+    padding-top: 100px;
+    padding-bottom: 50px;
     color: white;
 }
 
@@ -216,9 +275,32 @@ footer .fa-chevron-up {
     .container {
         width: 900px;
         margin: 0 calc( ( 100% - 900px) / 2);
-
-        
     }
+        .container .about1 {
+            width: calc(100% - 0px);
+            /* margin-left: 5px;
+            margin-right: 5px;  */
+            transform: translateY(-50px);
+            margin: 0 auto;
+        }
+
+        .container .about2 {
+            width: calc(100% - 0px);
+            /* margin-left: 5px;
+            margin-right: 5px;  */
+            transform: translateY(-40px);
+            margin: 0 auto;
+        }
+
+        .container .about3 {
+            width: calc(100% - 0px);
+            /* margin-left: 5px;
+            margin-right: 5px;  */
+            transform: translateY(-40px);
+            margin: 0 auto;
+        }
+        
+    
     }   
 
     @media (max-width: 1000px) {
@@ -291,24 +373,48 @@ footer .fa-chevron-up {
                 margin-right: 20px; 
             }
 
-            .about {
+            /* .about {
                 padding-bottom: 250px;
                 padding-left: 0px;
                 padding-right: 0px;
+            } */
+
+            .container .about1 {
+                width: calc(100% - 0px);
+                /* margin-left: 5px;
+                margin-right: 5px;  */
+                transform: translateY(-50px);
+                margin: 0 auto;
             }
 
-            .about .about-1 {
-                width: calc(100% - 100px);
-                margin-left: 50px;
-                margin-right: 50px; 
+            .container .about2 {
+                width: calc(100% - 0px);
+                /* margin-left: 5px;
+                margin-right: 5px;  */
+                transform: translateY(-40px);
+                margin: 0 auto;
             }
 
-            .about .about-2 {
-                width: calc(100% - 100px);
-                margin-left: 50px;
-                margin-right: 50px; 
-                margin-top: 20px;
+            .container .about3 {
+                width: calc(100% - 0px);
+                /* margin-left: 5px;
+                margin-right: 5px;  */
+                transform: translateY(-40px);
+                margin: 0 auto;
             }
+
+            .container .about1 p {
+                font-size: 10px;
+            }
+
+            .container .about2 p {
+                font-size: 10px;
+            }
+
+            .container .about3 p {
+                font-size: 10px;
+            }
+
             footer .fa-chevron-up {
                 display: none;
             }
