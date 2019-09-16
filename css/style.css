@@ -65,7 +65,6 @@ header nav {
     display: inline-block;
     float: left;
     width: 20%;
-    /* height: 460px; */
     width: 400px;
     background-color: lime;
     /* padding-bottom: 320px; */
@@ -83,7 +82,6 @@ header nav {
     float: left;
     width: 30%;
     width: 400px;
-    /* height: 420px;   */
     background-color: black;
     /* padding-bottom: 232px; */
     padding: 60px;
@@ -100,7 +98,6 @@ header nav {
     /* jeigu du blokai, tai tada po 49% ploti */
     width: 20%;
     width: 400px;
-    /* height: 420px;   */
     background-color: red;
     /* padding-bottom: 232px; */
     padding: 60px;
@@ -359,9 +356,10 @@ form {
         }
 
         .pirmas {
+            width: 100%;
+            display: inline-block;
             background: black;
-            height: 500px;
-            margin-top: 40px;
+            margin-bottom: 400px;
         }
 
 .pirmas .container {
@@ -400,7 +398,7 @@ form {
 
 .small-container {
     display: inline-block;
-        width: 1000px;
+        /* width: 1000px; */
         margin: 0 calc( ( 100% - 1000px) / 2);
         text-align: center;
 }
@@ -429,8 +427,6 @@ h1 {
     }
         .container .about1 {
             width: calc(100% - 0px);
-            /* margin-left: 5px;
-            margin-right: 5px;  */
             transform: translateY(-50px);
             margin: 0 auto;
         }
@@ -464,13 +460,16 @@ h1 {
     @media (max-width: 1000px) {
 
         .container {
+            display: inline-block;
             width: 700px;
             margin: 0 calc( (100% - 700px) / 2 );
         }
         .container > .left {
+            display: inline-block;
             width: 100%;
         }
         .container > .right {
+            display: inline-block;
             width: 100%;
             margin-left: 0;
             margin-top: 60px;
@@ -481,28 +480,17 @@ h1 {
         }
         
     }
-
-    @media (max-width: 1100px) {
-
-        .container {
-            width: 1020px;
-            margin: 0 calc( (100% - 1020px) / 2 );
-        }
-        footer .fa-chevron-up {
-
-            display: none;
-         }
-     }
-
        
         
             @media (max-width: 800px) {
                 .small-container {
+                    display: inline-block;
                     width: 500px;
                     margin: 0 calc( (100% - 500px) / 2 );
                  
                 }
                 .container {
+                    display: inline-block;
                     width: 500px;
                     margin: 0 calc( (100% - 500px) / 2 );
                 }
@@ -531,7 +519,7 @@ h1 {
               nav {
                   display: none;
               }
-            
+
             section .pirmas {
                 width: calc(100% - 40px);
                 margin-left: 20px;
@@ -545,27 +533,33 @@ h1 {
             } */
 
             .container .about1 {
-                width: calc(100% - 0px);
+                width: calc(100% - 40px);
                 /* margin-left: 5px;
                 margin-right: 5px;  */
                 transform: translateY(-50px);
-                margin: 0 auto;
+                /* margin: 0 auto; */
+                margin-left: 10px;
+                margin-right: 10px;
             }
 
             .container .about2 {
-                width: calc(100% - 0px);
+                width: calc(100% - 40px);
                 /* margin-left: 5px;
                 margin-right: 5px;  */
                 transform: translateY(-40px);
-                margin: 0 auto;
+                /* margin: 0 auto; */
+                margin-left: 10px;
+                margin-right: 10px;
             }
 
             .container .about3 {
-                width: calc(100% - 0px);
+                width: calc(100% - 40px);
                 /* margin-left: 5px;
                 margin-right: 5px;  */
                 transform: translateY(-40px);
-                margin: 0 auto;
+                /* margin: 0 auto; */
+                margin-left: 10px;
+                margin-right: 10px;
             }
 
             .container .about1 p {
@@ -636,26 +630,44 @@ h1 {
                 box-shadow: 0px 2px 4px #0009;
 
               }
+
               @media (max-width: 325px) {
                 .small-container {
                     width: calc(100% - 40px);
+                    display: inline-block;
                     margin-left: 20px;
                     margin-right: 20px;
+                    margin-bottom: 100px;
                     
-                }
-                footer {
-                    height: 200px;
                 }
             }
             @media (max-width: 325px) {
                 .small-container {
                     width: calc(100% - 40px);
+                    display: inline-block;
                     margin-left: 20px;
                     margin-right: 20px;
+                    margin-bottom: 100px;
                     
                 }
-                footer {
-                    height: 350px;
-                }
             }
-        }
+            @media (max-width: 352px) {
+                .container {
+                    display: inline-block;
+                    width: calc(100% - 0px);
+                    margin-left: 20px;
+                    margin-right: 20px;
+                    text-align: center;
+                    margin-bottom: 40px;
+                 
+                }
+                .small-container {
+                        display: inline-block;
+                        width: calc(100% - 0px);
+                        margin-left: 20px;
+                        margin-right: 20px;
+                        text-align: center;
+                        margin-bottom: 40px;
+         }
+    }
+}
