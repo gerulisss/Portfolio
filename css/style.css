@@ -14,7 +14,7 @@ html {
 header {
     display: inline-block;
     width: 100%;
-    height: 100vh;
+    min-height: 100vh;
     background-image: url("../images/bg.jpg");
     background-color: black;
     text-align: center;
@@ -73,7 +73,7 @@ header nav {
     padding-left: 20px;
     padding-right: 20px;
     color: white;
-    box-shadow: 10px 10px 5px #aaaaaa;
+    box-shadow: 0px 0px 10px 1px grey;
 }
 
 
@@ -89,7 +89,7 @@ header nav {
     padding-left: 20px;
     padding-right: 20px;
     color: white;
-    box-shadow: 10px 10px 5px #aaaaaa;
+    box-shadow: 0px 0px 10px 1px grey;
 }
 
 .container .about3 {
@@ -106,7 +106,7 @@ header nav {
     padding-left: 20px;
     padding-right: 20px;
     color: white;
-    box-shadow: 10px 10px 5px #aaaaaa;
+    box-shadow: 0px 0px 10px 1px grey;
 }
 
 .container .about1 p {
@@ -127,9 +127,9 @@ footer {
     display: inline-block;
     background-color: black;
     width: 100%;
-    height: 150px;
-    padding-bottom: 20px;
     text-align: center;
+    padding-bottom: 20px;
+    padding-top: 20px;
 }
 
 /* footer p {
@@ -240,7 +240,7 @@ footer .fa-chevron-up {
     /* opacity: .3; */
     /* position:fixed; */
     position: absolute;
-    margin-bottom: -1310px;
+    margin-bottom: -1000px;
     margin-right: 40px;
     bottom: 40px;
     right: 30px;
@@ -359,7 +359,8 @@ form {
             width: 100%;
             display: inline-block;
             background: black;
-            margin-bottom: 400px;
+            /* padding-bottom: -40px;
+            padding-top: 40px; */
         }
 
 .pirmas .container {
@@ -367,7 +368,7 @@ form {
     /* width: 50%; */
     /* background-color: lime; */
     display: inline-block;
-    margin-top: 60px;
+    margin-top: 20px;
     color: white;
 }
 
@@ -387,13 +388,17 @@ form {
     display: inline-block;
     width: 50%;
     float: left;
+    padding-right: 40px;
+    padding-left: 40px;
 }
 
 .container .right {
     display: inline-block;
-    width: 40%;
+    width: 50%;
     float: right;
-    margin-left: 10%;
+    padding-left: 40px;
+    padding-right: 40px;
+
 }
 
 .small-container {
@@ -426,13 +431,13 @@ h1 {
         margin: 0 calc( ( 100% - 900px) / 2);
     }
         .container .about1 {
-            width: calc(100% - 0px);
+            width: calc(100% - 40px);
             transform: translateY(-50px);
             margin: 0 auto;
         }
 
         .container .about2 {
-            width: calc(100% - 0px);
+            width: calc(100% - 40px);
             /* margin-left: 5px;
             margin-right: 5px;  */
             transform: translateY(-40px);
@@ -440,7 +445,7 @@ h1 {
         }
 
         .container .about3 {
-            width: calc(100% - 0px);
+            width: calc(100% - 40px);
             /* margin-left: 5px;
             margin-right: 5px;  */
             transform: translateY(-40px);
@@ -509,6 +514,7 @@ h1 {
                 width: calc(100% - 40px);
                 margin-left: 20px;
                 margin-right: 20px;
+                
             }
 
             header img {
@@ -538,8 +544,8 @@ h1 {
                 margin-right: 5px;  */
                 transform: translateY(-50px);
                 /* margin: 0 auto; */
-                margin-left: 10px;
-                margin-right: 10px;
+                margin-left: 20px;
+                margin-right: 20px;
             }
 
             .container .about2 {
@@ -548,8 +554,8 @@ h1 {
                 margin-right: 5px;  */
                 transform: translateY(-40px);
                 /* margin: 0 auto; */
-                margin-left: 10px;
-                margin-right: 10px;
+                margin-left: 20px;
+                margin-right: 20px;
             }
 
             .container .about3 {
@@ -558,8 +564,8 @@ h1 {
                 margin-right: 5px;  */
                 transform: translateY(-40px);
                 /* margin: 0 auto; */
-                margin-left: 10px;
-                margin-right: 10px;
+                margin-left: 20px;
+                margin-right: 20px;
             }
 
             .container .about1 p {
@@ -600,7 +606,8 @@ h1 {
                 display: inline-block;
                 margin-top: -10px;
                 padding: 40px;
-                margin-right: -10px;
+                margin-right: 50px;
+                margin-left: -0px;
               }
               
               .dropdown-content {
@@ -631,43 +638,5 @@ h1 {
 
               }
 
-              @media (max-width: 325px) {
-                .small-container {
-                    width: calc(100% - 40px);
-                    display: inline-block;
-                    margin-left: 20px;
-                    margin-right: 20px;
-                    margin-bottom: 100px;
-                    
-                }
             }
-            @media (max-width: 325px) {
-                .small-container {
-                    width: calc(100% - 40px);
-                    display: inline-block;
-                    margin-left: 20px;
-                    margin-right: 20px;
-                    margin-bottom: 100px;
-                    
-                }
-            }
-            @media (max-width: 352px) {
-                .container {
-                    display: inline-block;
-                    width: calc(100% - 0px);
-                    margin-left: 20px;
-                    margin-right: 20px;
-                    text-align: center;
-                    margin-bottom: 40px;
-                 
-                }
-                .small-container {
-                        display: inline-block;
-                        width: calc(100% - 0px);
-                        margin-left: 20px;
-                        margin-right: 20px;
-                        text-align: center;
-                        margin-bottom: 40px;
-         }
-    }
-}
+    
