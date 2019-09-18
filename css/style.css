@@ -36,6 +36,7 @@ html {
     box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     margin: 20px;
     margin-right: 35px;
+    border-radius: 30px;
 }
 
 .container .about1 h3 a {
@@ -45,6 +46,8 @@ html {
 
 .container .about1:hover {
     box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 2px;
+
 }
 
 .container .about2 {
@@ -62,6 +65,7 @@ html {
     box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     margin: 20px;
     text-align: center;
+    border-radius: 30px;
 }
 
 .container .about2 h3 a {
@@ -71,6 +75,7 @@ html {
 
 .container .about2:hover {
     box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 2px;
 }
 
 .container .about3 {
@@ -89,6 +94,7 @@ html {
     color: white;
     box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     margin: 20px;
+    border-radius: 30px;
 }
 
 .container .about3 h3 a {
@@ -98,6 +104,7 @@ html {
 
 .container .about3:hover {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 2px;
 }
 
 .container .about1 p {

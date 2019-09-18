@@ -3,8 +3,8 @@ footer {
     background-color: black;
     width: 100%;
     text-align: center;
-    padding-bottom: 20px;
-    padding-top: 20px;
+    padding-top: 50px;
+    padding-bottom: 40px;
 }
 
 /* footer p {
@@ -15,7 +15,7 @@ footer {
 
 footer img {
     margin-top: 10px;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
     width: 50px;
     position: center bottom;
 }
